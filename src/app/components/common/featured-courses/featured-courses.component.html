@@ -1,102 +1,68 @@
 <!-- Default Courses Section -->
-<div
-    class="courses-area position-relative z-2 pt-100 pb-75"
-    [ngClass]="{'d-none': router.url === '/index-3'}"
->
+<div class="courses-area position-relative z-2 pt-100 pb-75" [ngClass]="{'d-none': router.url === '/index-3'}">
     <div class="container">
         <div class="section-title text-center">
-            <span class="sub-title d-block fw-medium text-uppercase">Courses</span>
-            <h2 class="mb-0">Find Your Featured Courses</h2>
+            <span class="sub-title d-block fw-medium text-uppercase">Services</span>
+            <h2 class="mb-0">What We Do ?</h2>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6">
+            <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
                 <div class="single-course-item position-relative">
                     <div class="image position-relative">
-                        <a routerLink="/course-details" class="d-block">
-                            <img src="assets/images/courses/course5.jpg" alt="course-image">
+                        <a class="d-block">
+                            <img src="assets/images/courses/item1.jpg" alt="course-image">
                         </a>
-                        <span class="price">$19</span>
+                        <!-- <span class="price">$29</span> -->
                     </div>
                     <div class="content">
-                        <div class="meta justify-content-between align-items-center d-flex">
-                            <a routerLink="/instructor-profile" class="user d-flex align-items-center">
-                                <img src="assets/images/users/user3.jpg" width="30" height="30" class="rounded-circle" alt="user-image">
-                                Sydney Phelps
-                            </a>
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                (5.0)
-                            </div>
-                        </div>
                         <h3>
-                            <a routerLink="/course-details">
-                                Agile Crash Course Agile Project Management
+                            <a>
+                                Minor Services
                             </a>
                         </h3>
-                        <ul class="info d-flex align-items-center justify-content-between ps-0 mb-0 list-unstyled">
-                            <li>
-                                <i class="flaticon-open-book"></i>
-                                12 Lessons
-                            </li>
-                            <li>
-                                <i class="flaticon-young-man"></i>
-                                20 Students
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="hover-box">
-                        <h3>
-                            <a routerLink="/course-details">
-                                Agile Crash Course Agile Project Management
-                            </a>
-                        </h3>
-                        <span class="sub-title d-block">What you'll learn</span>
-                        <ul class="features-list ps-0 list-unstyled mb-0">
-                            <li>
-                                <i class="flaticon-tick"></i>
-                                Get familiar with almosconcepts of business statistics
-                            </li>
-                            <li>
-                                <i class="flaticon-tick"></i>
-                                Master statistical tools which can be used for data analysis
-                            </li>
-                            <li>
-                                <i class="flaticon-tick"></i>
-                                Master the art of presenting data using different tools
-                            </li>
-                        </ul>
-                        <div class="btn-box d-flex align-items-center">
-                            <button type="button" class="default-btn">Add To Cart</button>
-                            <button type="button" class="fav-btn"><i class="flaticon-heart"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6">
-                <div class="single-course-item position-relative">
-                    <div class="image position-relative">
-                        <a routerLink="/course-details" class="d-block">
-                            <img src="assets/images/courses/course6.jpg" alt="course-image">
-                        </a>
-                        <span class="price">$29</span>
-                    </div>
-                    <div class="content">
                         <div class="meta justify-content-between align-items-center d-flex">
-                            <a routerLink="/instructor-profile" class="user d-flex align-items-center">
-                                <img src="assets/images/users/user4.jpg" width="30" height="30" class="rounded-circle" alt="user-image">
-                                Sergio Osborn
+                            <a class="user d-flex align-items-center">
+                                <!-- <img src="assets/images/users/user4.jpg" width="30" height="30" class="rounded-circle" alt="user-image"> -->
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Oil Change ( fully synthethic 10,000 km )
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Filter Replacement
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        All Vehicles Fluids Are checked And Topped Up
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Including Transmsation And Drivetrain
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        82-Points Car Inspection And Detailed ReportWheel Aligment Check Tire Rotation (
+                                        If Applicable )
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Interior vacuuming and exterior washing
+                                    </li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+                                </ul>
                             </a>
-                            <div class="rating">
+                            <!-- <div class="rating">
                                 <i class='bx bxs-star'></i>
                                 (4.0)
-                            </div>
+                                </div> -->
+                                </div>
+                        <div class="option-item">
+                            <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
                         </div>
-                        <h3>
-                            <a routerLink="/course-details">
-                                Deep Learning a-z Hands on Artificial Neural Networks
-                            </a>
-                        </h3>
-                        <ul class="info d-flex align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                        <!-- <ul class="info d-flex align-items-center justify-content-between ps-0 mb-0 list-unstyled">
                             <li>
                                 <i class="flaticon-open-book"></i>
                                 09 Lessons
@@ -105,11 +71,11 @@
                                 <i class="flaticon-young-man"></i>
                                 65 Students
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
-                    <div class="hover-box">
+                    <!-- <div class="hover-box">
                         <h3>
-                            <a routerLink="/course-details">
+                            <a>
                                 Deep Learning a-z Hands on Artificial Neural Networks
                             </a>
                         </h3>
@@ -132,131 +98,416 @@
                             <button type="button" class="default-btn">Add To Cart</button>
                             <button type="button" class="fav-btn"><i class="flaticon-heart"></i></button>
                         </div>
+                    </div> -->
+                </div>
+                </div>
+            <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
+                <div class="single-course-item position-relative">
+                    <div class="image position-relative">
+                        <a class="d-block">
+                            <img src="assets/images/courses/item2.jpg" alt="course-image">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h3>
+                            <a>
+                                Major Service
+                            </a>
+                        </h3>
+                        <div class="meta justify-content-between align-items-center d-flex">
+                            <a class="user d-flex align-items-center">
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                            
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Oil Change ( Fully synthethic 10,000 km ) With Oil Filter Replacement
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Air Filter Replacement
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        AC Filter Replacement
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        All Vehicles Fluids Are checked And Topped Up Including Transmission And
+                                        Drivertrain
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Break Cleaning And Inspection
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        21-Point Car Inspection And Detailed Report
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Interior Vacuuming And Exterior Washing
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Tire Rotation ( If Applicable )
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Wheel Balancing ( If Applicable )
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div style="margin-top:-15px" class="option-item">
+                            <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
+                        <div class="single-course-item position-relative">
+                            <div class="image position-relative">
+                                <a class="d-block">
+                                    <img src="assets/images/courses/item4.jpg" alt="course-image">
+                                </a>
+                            </div>
+                            <div class="content">
+                        <h3>
+                            <a>
+                                Mechanical Service
+                            </a>
+                        </h3>
+                        <div class="meta justify-content-between align-items-center d-flex">
+                            <a class="user d-flex align-items-center">
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                        
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Engine/Automation/Manual Transmission Overhual
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Automatic/Manual Transmission Oil Change
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Electronic Transmission Of Fault Diagnosis
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Transfer Gearbox (4x4) Repair / Overhual
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Diffrent Repair / Overhual
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Clutch Oberhual
+                                    </li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+
+                                </ul>
+                            </a>
+                        </div>
+                        <div class="option-item">
+                            <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
+                            <div class="single-course-item position-relative">
+                                <div class="image position-relative">
+                                    <a class="d-block">
+                                        <img src="assets/images/courses/item5.jpg" alt="course-image">
+                                    </a>
+                                </div>
+                                <div class="content">
+                        <h3>
+                            <a>
+                                Electric Service
+                            </a>
+                        </h3>
+                        <div class="meta justify-content-between align-items-center d-flex">
+                            <a class="user d-flex align-items-center">
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                        
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Car Electricals Diagnosis and Repait
+                                        </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Car Electronics/Computers Diagnosisand Repair
+                                        </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Home Replacement $ Repair
+                                        </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Taillights/Headlights Repairs and Replacement
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Wiring Repair nad Replacement
+                                    </li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+
+                                </ul>
+                            </a>
+                        </div>
+                        <div class="option-item">
+                            <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
+                        </div>
+                        </div>
+                        </div>
+            </div>
+            <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
+                <div class="single-course-item position-relative">
+                    <div class="image position-relative">
+                        <a class="d-block">
+                            <img src="assets/images/courses/item3.jpg" alt="course-image">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h3>
+                            <a>
+                                Brake Repair Service In Dubai
+                            </a>
+                        </h3>
+                        <div class="meta justify-content-between align-items-center d-flex">
+                            <a class="user d-flex align-items-center">
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                            
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Inspection and servicing
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Brake Electronic System
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Brake Pads
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Brake Dics
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Brake Overhaul
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div class="option-item">
+                            <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
+                        <div class="single-course-item position-relative">
+                            <div class="image position-relative">
+                                <a class="d-block">
+                                    <img src="assets/images/courses/item6.jpg" alt="course-image">
+                                </a>
+                            </div>
+                            <div class="content">
+                        <h3>
+                            <a>
+                                Oil Changing Service In Dubai
+                            </a>
+                        </h3>
+                        <div class="meta justify-content-between align-items-center d-flex">
+                            <a class="user d-flex align-items-center">
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                        
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Engine Oil & Filter Replacement As Per Manufacturer Specification
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        12 Point Vehicle CheckUp
+                                    </li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    <li class="liPadd">&nbsp;</li>
+                                </ul>
+                            </a>
+                        </div>
+                        <div class="option-item">
+                            <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
+                            <div class="single-course-item position-relative">
+                                <div class="image position-relative">
+                                    <a class="d-block">
+                                        <img src="assets/images/courses/item7.jpg" alt="course-image">
+                                    </a>
+                                </div>
+                                <div class="content">
+                        <h3>
+                            <a>
+                                Car A/C Service In Dubai
+                            </a>
+                        </h3>
+                        <div class="meta justify-content-between align-items-center d-flex">
+                            <a class="user d-flex align-items-center">
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                        
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Visual Inspection Of All Components
+                                        </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Function And Performance Test
+                                        </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Leak Test
+                                        </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        AC Gas Replacement
+                                    </li>
+                                    <li class="liPadd">&nbsp;</li>
+                                </ul>
+                            </a>
+                            </div>
+                            <div class="option-item">
+                                <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6">
+            <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
                 <div class="single-course-item position-relative">
                     <div class="image position-relative">
-                        <a routerLink="/course-details" class="d-block">
-                            <img src="assets/images/courses/course7.jpg" alt="course-image">
+                        <a class="d-block">
+                            <img src="assets/images/courses/item8.jpg" alt="course-image">
                         </a>
-                        <span class="price">$39</span>
                     </div>
                     <div class="content">
+                        <h3>
+                            <a>
+                                Car Recovery Service In Dubai
+                            </a>
+                        </h3>
                         <div class="meta justify-content-between align-items-center d-flex">
-                            <a routerLink="/instructor-profile" class="user d-flex align-items-center">
-                                <img src="assets/images/users/user5.jpg" width="30" height="30" class="rounded-circle" alt="user-image">
-                                Stewart Burgess
+                            <a class="user d-flex align-items-center">
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                            
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Breakdown Recovery
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Flat Tyre Recovery
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Flat Battery Recovery
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        All Types Of Roadside assistance
+                                    </li>
+                                    <li class="liPadd">&nbsp;</li>
+                                </ul>
                             </a>
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                (4.5)
+                        </div>
+                        <div class="option-item">
+                            <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
+                        <div class="single-course-item position-relative">
+                            <div class="image position-relative">
+                                <a class="d-block">
+                                    <img src="assets/images/courses/item9.jpg" alt="course-image">
+                                </a>
                             </div>
-                        </div>
+                            <div class="content">
                         <h3>
-                            <a routerLink="/course-details">
-                                The Data Science Courses Complete Data Science
+                            <a>
+                                Suspension Service In Dubai
                             </a>
                         </h3>
-                        <ul class="info d-flex align-items-center justify-content-between ps-0 mb-0 list-unstyled">
-                            <li>
-                                <i class="flaticon-open-book"></i>
-                                10 Lessons
-                            </li>
-                            <li>
-                                <i class="flaticon-young-man"></i>
-                                33 Students
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="hover-box">
-                        <h3>
-                            <a routerLink="/course-details">
-                                The Data Science Courses Complete Data Science
-                            </a>
-                        </h3>
-                        <span class="sub-title d-block">What you'll learn</span>
-                        <ul class="features-list ps-0 list-unstyled mb-0">
-                            <li>
-                                <i class="flaticon-tick"></i>
-                                Get familiar with almosconcepts of business statistics
-                            </li>
-                            <li>
-                                <i class="flaticon-tick"></i>
-                                Master statistical tools which can be used for data analysis
-                            </li>
-                            <li>
-                                <i class="flaticon-tick"></i>
-                                Master the art of presenting data using different tools
-                            </li>
-                        </ul>
-                        <div class="btn-box d-flex align-items-center">
-                            <button type="button" class="default-btn">Add To Cart</button>
-                            <button type="button" class="fav-btn"><i class="flaticon-heart"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6">
-                <div class="single-course-item position-relative">
-                    <div class="image position-relative">
-                        <a routerLink="/course-details" class="d-block">
-                            <img src="assets/images/courses/course8.jpg" alt="course-image">
-                        </a>
-                        <span class="price">$49</span>
-                    </div>
-                    <div class="content">
                         <div class="meta justify-content-between align-items-center d-flex">
-                            <a routerLink="/instructor-profile" class="user d-flex align-items-center">
-                                <img src="assets/images/users/user6.jpg" width="30" height="30" class="rounded-circle" alt="user-image">
-                                Cornell Byrd
+                            <a class="user d-flex align-items-center">
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                        
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Electronic/Hydraulic system suspension system repair
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Shock Absorbers Repair
+                                    </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Suspension Arms/Bushes Repair
+                                    </li>
+                                    </ul>
                             </a>
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                (3.5)
-                            </div>
                         </div>
+                        <div class="option-item">
+                            <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6 animate__animated animate__backInUp">
+                            <div class="single-course-item position-relative">
+                                <div class="image position-relative">
+                                    <a class="d-block">
+                                        <img src="assets/images/courses/item10.jpg" alt="course-image">
+                                    </a>
+                                </div>
+                                <div class="content">
                         <h3>
-                            <a routerLink="/course-details">
-                                Node.js for Beginners Go From Zero Hero Nede.js
+                            <a>
+                                Pre Purchase Inspection
                             </a>
                         </h3>
-                        <ul class="info d-flex align-items-center justify-content-between ps-0 mb-0 list-unstyled">
-                            <li>
-                                <i class="flaticon-open-book"></i>
-                                11 Lessons
-                            </li>
-                            <li>
-                                <i class="flaticon-young-man"></i>
-                                39 Students
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="hover-box">
-                        <h3>
-                            <a routerLink="/course-details">
-                                Node.js for Beginners Go From Zero Hero Nede.js
+                        <div class="meta justify-content-between align-items-center d-flex">
+                            <a class="user d-flex align-items-center">
+                                <ul style="font-size: 12px;" class="info align-items-center justify-content-between ps-0 mb-0 list-unstyled">
+                        
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        82 Point CheckUp
+                                        </li>
+                                    <li class="liPadd">
+                                        <i class="flaticon-tick"></i>
+                                        Excluded Chassis Inspection
+                                        </li>
+                                    <li class="liPadd">&nbsp;</li>
+                                    </ul>
                             </a>
-                        </h3>
-                        <span class="sub-title d-block">What you'll learn</span>
-                        <ul class="features-list ps-0 list-unstyled mb-0">
-                            <li>
-                                <i class="flaticon-tick"></i>
-                                Get familiar with almosconcepts of business statistics
-                            </li>
-                            <li>
-                                <i class="flaticon-tick"></i>
-                                Master statistical tools which can be used for data analysis
-                            </li>
-                            <li>
-                                <i class="flaticon-tick"></i>
-                                Master the art of presenting data using different tools
-                            </li>
-                        </ul>
-                        <div class="btn-box d-flex align-items-center">
-                            <button type="button" class="default-btn">Add To Cart</button>
-                            <button type="button" class="fav-btn"><i class="flaticon-heart"></i></button>
+                            </div>
+                            <div class="option-item">
+                                <a routerLink="/profile-authentication" class="default-btn two">Book Service</a>
                         </div>
                     </div>
                 </div>
@@ -266,10 +517,7 @@
 </div>
 
 <!-- Courses Section for Home Demo - 2 -->
-<div
-    class="courses-area pt-100 pb-75 d-none"
-    [ngClass]="{'d-block': router.url === '/index-3'}"
->
+<div class="courses-area pt-100 pb-75 d-none" [ngClass]="{'d-block': router.url === '/index-3'}">
     <div class="container">
         <div class="section-title d-sm-flex justify-content-between">
             <h2 class="mb-0">Our Popular Online Courses</h2>
@@ -278,19 +526,20 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6">
                 <div class="course-item position-relative">
-                    <a routerLink="/course-details" class="d-block image">
+                    <!-- routerLink="/course-details" -->
+                    <a class="d-block image">
                         <img src="assets/images/courses/course15.jpg" alt="course-image">
                     </a>
                     <div class="content">
                         <div class="meta justify-content-between align-items-center d-flex">
-                            <a routerLink="/instructor-profile" class="user d-flex align-items-center">
+                            <a class="user d-flex align-items-center">
                                 <img src="assets/images/users/user3.jpg" width="30" height="30" class="rounded-circle" alt="user-image">
                                 Sydney Phelps
                             </a>
                             <span>Intermediate</span>
                         </div>
                         <h3>
-                            <a routerLink="/course-details">
+                            <a>
                                 HTML, JavaScript, & Bootstrap Certification Course
                             </a>
                         </h3>
@@ -309,19 +558,19 @@
             </div>
             <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6">
                 <div class="course-item position-relative">
-                    <a routerLink="/course-details" class="d-block image">
+                    <a class="d-block image">
                         <img src="assets/images/courses/course14.jpg" alt="course-image">
                     </a>
                     <div class="content">
                         <div class="meta justify-content-between align-items-center d-flex">
-                            <a routerLink="/instructor-profile" class="user d-flex align-items-center">
+                            <a class="user d-flex align-items-center">
                                 <img src="assets/images/users/user2.jpg" width="30" height="30" class="rounded-circle" alt="user-image">
                                 Alina Smith
                             </a>
                             <span>Intermediate</span>
                         </div>
                         <h3>
-                            <a routerLink="/course-details">
+                            <a>
                                 Kids Coding - Introduction to HTML, CSS & JavaScript
                             </a>
                         </h3>
@@ -340,19 +589,19 @@
             </div>
             <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6">
                 <div class="course-item position-relative">
-                    <a routerLink="/course-details" class="d-block image">
+                    <a class="d-block image">
                         <img src="assets/images/courses/course13.jpg" alt="course-image">
                     </a>
                     <div class="content">
                         <div class="meta justify-content-between align-items-center d-flex">
-                            <a routerLink="/instructor-profile" class="user d-flex align-items-center">
+                            <a class="user d-flex align-items-center">
                                 <img src="assets/images/users/user1.jpg" width="30" height="30" class="rounded-circle" alt="user-image">
                                 David Warner
                             </a>
                             <span>Advanced</span>
                         </div>
                         <h3>
-                            <a routerLink="/course-details">
+                            <a>
                                 The Complete Camtasia Course For Content
                             </a>
                         </h3>
@@ -371,19 +620,19 @@
             </div>
             <div class="col-lg-4 col-xl-3 col-sm-6 col-md-6">
                 <div class="course-item position-relative">
-                    <a routerLink="/course-details" class="d-block image">
+                    <a class="d-block image">
                         <img src="assets/images/courses/course12.jpg" alt="course-image">
                     </a>
                     <div class="content">
                         <div class="meta justify-content-between align-items-center d-flex">
-                            <a routerLink="/instructor-profile" class="user d-flex align-items-center">
+                            <a class="user d-flex align-items-center">
                                 <img src="assets/images/users/user4.jpg" width="30" height="30" class="rounded-circle" alt="user-image">
                                 James Andy
                             </a>
                             <span>Beginner</span>
                         </div>
                         <h3>
-                            <a routerLink="/course-details">
+                            <a>
                                 Bulding A Better World One Snudent AT A Time
                             </a>
                         </h3>

@@ -2,13 +2,15 @@
 :root {
     --fontFamily: 'Jost', sans-serif;
     --bodyColor: #808292;
-    --primaryColor: #332ed6;
-    --secondaryColor: #4662d1;
+    --primaryColor: #df002a;
+        --secondaryColor: #a10120;
     --whiteColor: #ffffff;
-    --blackColor: #21225F;
+    --blackColor: #2b030b;
     --borderColor: #eeeeee;
     --transition: all ease 0.5s;
     --fontSize: 16px;
+    --animate-duration: 800ms;
+        --animate-delay: 5.9s;
 }
 
 body {

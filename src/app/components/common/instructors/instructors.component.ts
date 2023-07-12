@@ -9,16 +9,16 @@ export class InstructorsComponent {
 
     sectionTitle = [
         {
-            subTitle: `ADVISOR`,
-            title: `Course Instructors`,
-            paragraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+            subTitle: `Workers`,
+            title: `Our Top Rated Mechanics`,
+            paragraph: ``
         }
     ]
     instructorBox = [
         {
             image: `assets/images/instructors/instructor1.jpg`,
-            name: `Earle Goodman`,
-            designation: `UI Designer`,
+            name: `Taha Iqbal`,
+            designation: `Mechanical Engineer`,
             link: `/instructor-profile`,
             socials: [
                 {
@@ -41,8 +41,8 @@ export class InstructorsComponent {
         },
         {
             image: `assets/images/instructors/instructor2.jpg`,
-            name: `Sarah Taylor`,
-            designation: `Web Developer`,
+            name: `Wahab Saeed`,
+            designation: `Electrical Helper`,
             link: `/instructor-profile`,
             socials: [
                 {
@@ -65,8 +65,8 @@ export class InstructorsComponent {
         },
         {
             image: `assets/images/instructors/instructor3.jpg`,
-            name: `Mickey Hunter`,
-            designation: `Digital Marketer`,
+            name: `Ahsan Yousuf`,
+            designation: `Auto pats Repairer`,
             link: `/instructor-profile`,
             socials: [
                 {
@@ -89,8 +89,8 @@ export class InstructorsComponent {
         },
         {
             image: `assets/images/instructors/instructor4.jpg`,
-            name: `Norris Weeks`,
-            designation: `WordPress Expert`,
+            name: `Ghufran Rana`,
+            designation: `Mechanical Engineer`,
             link: `/instructor-profile`,
             socials: [
                 {

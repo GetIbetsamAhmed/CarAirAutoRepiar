@@ -1,7 +1,12 @@
+
 // Style One
+
 .single-course-item {
     margin-bottom: 25px;
 
+    .liPadd {
+            padding: 3px;
+        }
     .image {
         .price {
             top: 0;

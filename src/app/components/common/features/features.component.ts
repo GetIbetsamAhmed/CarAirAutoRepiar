@@ -17,23 +17,29 @@ export class FeaturesComponent {
             image1: `assets/images/features/feature1.jpg`,
             image2: `assets/images/features/feature2.jpg`,
             image3: `assets/images/features/feature3.jpg`,
-            title: `Differentiate Your Classroom What Makes Us Special`,
-            paragraph: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't loefven slightly believable. If you are going to use a passage.`,
+            title: `Why Chosen Car Aid Repair ? `,
+            paragraph: `Car Aid Reapiar - Providing all kind of mechanical & Car maintenance solutions at your Home/ Office. - Basic Tuning - Clutch & Gear works`,
             list: [
                 {
-                    title: `Flexible Training Programs`
+                    title: `Service At Door Step`
                 },
                 {
-                    title: `Learn From Approved Experts`
+                    title: `Engine Overhauling`
                 },
                 {
-                    title: `Friendly Environment for You`
+                    title: `Engine Tuning & Oil Change`
                 },
                 {
-                    title: `Boost Your Knowledge`
+                    title: `Suspension Overhauling`
+                },
+                {
+                    title: `PPF, Wrapping & Detailing`
+                },
+                {
+                    title: `Car Electronics`
                 }
             ],
-            buttonText: `Get Started Now`,
+            buttonText: `Book Service Online `,
             buttonLink: `/courses-grid`
         }
     ]

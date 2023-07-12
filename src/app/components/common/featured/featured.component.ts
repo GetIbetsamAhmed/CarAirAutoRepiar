@@ -15,19 +15,19 @@ export class FeaturedComponent {
     featuredBox = [
         {
             icon: `assets/images/featured/icon1.gif`,
-            title: `Learn the Latest Top Skills`
+            title: `Door Step Service`
         },
         {
             icon: `assets/images/featured/icon2.gif`,
-            title: `Learn From Industry Experts`
+            title: `Car Repairing`
         },
         {
             icon: `assets/images/featured/icon3.gif`,
-            title: `Learn In Your Own Pace`
+            title: `Auto Part shop`
         },
         {
             icon: `assets/images/featured/icon4.gif`,
-            title: `Enjoy Learning From Anywhere`
+            title: `Car Electronics`
         }
     ]
 
